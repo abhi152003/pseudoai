@@ -49,7 +49,7 @@ const Home = () => {
   return (
     <div className="root">
       <Head>
-        <title>PSUEDO.AI</title>
+        <title>PSEUDO.AI</title>
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7915805381655628" crossorigin="anonymous"></script>
       </Head>
       <div className="container">
