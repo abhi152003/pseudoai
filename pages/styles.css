@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Manrope', sans-serif;
+}
+
+.root {
+    background-color: rgb(0, 0, 0);
+    gap: 10px;
+    height: 100vh;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+
+@media (min-width: 768px) {
+    .mobile-message h1 {
+        display: none;
+    }
+
+    .mobile_social {
+        display: none;
+    }
+
+    .mobile_copy {
+        display: none;
+    }
+
+    .mob-msg {
+        display: none;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .mobile-message {
+      display: block;
+      text-align: center;
+      background-color: #000000;
+      padding: 10px;
+      font-size: 20px;
+      margin-top: 30%;
+      color: #eb652b;
+    }
+
+    .mob-msg {
+        font-size: 30px;
+    }
+
+    .mobile_social {
+        color: white;
+        margin-top: 30%;
+    }
+
+    .mobile_social h3 {
+        color: #eb652b;
+    }
+
+    .home-wrapper {
+        display: none;
+    }
+
+    .nav-wrapper {
+        display: none;
+    }
+
+    .update-wrapper {
+        display: none;
+    }
+
+    .about-wrapper {
+        display: none;
+    }
+
+    .update-wrapper {
+        display: none;
+    }
+
+    .foot-wrapper {
+        display: none;
+    }
+
+    .dev-wrapper {
+        display: none;
+    }
+
+    .build-wrapper {
+        display: none;
+    }
+
+    .faq-wrapper {
+        display: none;
+    }
+    
+    .mobile_copy {
+        color: white;
+        margin-top: 20%;
+    }
+
+  }
+  

@@ -1,0 +1,59 @@
+@import url('https://fonts.cdnfonts.com/css/satoshi');
+
+.nav-wrapper{  
+    max-width: 1120px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.logo {
+    font-family: 'EB Garamond', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 31;
+    color: aliceblue;
+    margin: 0;
+}
+
+
+.navig-ul {
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+}
+
+
+.navig-ul li a {
+    text-decoration: none;
+    font-family: 'Satoshi', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15px;
+    text-align: center;
+    color: aliceblue;
+}
+
+#btn{
+    padding: 6px 10px;
+    border: 1pt solid;
+    border-color: aliceblue;
+}
+
+#btn:hover{
+    background-color: white;
+    color: black;
+    transition: 300ms;
+}
+
+.line{
+    width: 100%;
+    height: 0px;
+    border-bottom: 1px solid white;
+    margin-top: 20px;
+} 

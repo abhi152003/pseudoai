@@ -1,0 +1,603 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Manrope', sans-serif;
+    background-color: black;
+}
+
+.ai-wrapper {
+    max-width: 1120px;
+    margin: 0 auto;
+    height: 100vh;
+    color: white;
+}
+
+.content-container {
+    width: 100%;
+    height: 760px;
+    margin: 12.5% 0;
+    display: flex;
+    flex-direction: row;
+    gap: 128px;
+    background-image: url(../assets/AIhumam.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: 610px 790px;
+}
+
+.ai-content-1 {
+    width: 256px;
+    height: 768px;
+    border-radius: 16px;
+    align-items: center;
+    position: relative;
+    background: linear-gradient(152.97deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%);
+    backdrop-filter: blur(21px);
+}
+
+.ai-logo {
+    position: absolute;
+    width: 158px;
+    height: 40px;
+    left: 50px;
+    top: 48px;
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-size: 31px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: center;
+    color: #FFF;
+}
+
+.guide {
+    position: absolute;
+    width: 158px;
+    height: 252px;
+    left: 50px;
+    top: 117px;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: start;
+    color: #FFF;
+}
+
+.back-to-site {
+    position: absolute;
+    width: 192px;
+    height: 18px;
+    left: 32px;
+    top: 646px;
+    font-family: 'Satoshi';
+    font-style: italic;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: center;
+    color: #eb652b;
+    text-decoration: none;
+}
+
+.ai-social {
+    position: absolute;
+    width: 96px;
+    height: 122px;
+    left: 80px;
+    top: 414px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+
+.ai-social div {
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #fff;
+}
+
+.ai-social a {
+    font-family: 'Satoshi';
+    font-style: italic;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #eb652b;
+    text-decoration: none;
+}
+
+.ai-copyrights {
+    position: absolute;
+    width: 202px;
+    height: 9px;
+    left: 35px;
+    top: 727px;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 7px;
+    line-height: 9px;
+    letter-spacing: 0.125em;
+    color: #FFF;
+}
+
+.pseudoai {
+    display: flex;
+    place-content: center flex-start;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    flex-flow: column nowrap;
+    gap: 10px;
+    height: 100vh;
+    overflow: auto;
+    padding: 0px;
+    position: relative;
+}
+
+.ai-container {
+    display: flex;
+    place-content: center flex-start;
+    align-items: center;
+    flex: 0 0 auto;
+    flex-flow: column nowrap;
+    gap: 10px;
+    height: fit-content;
+    max-width: 975px;
+    overflow: auto;
+    padding: 50px;
+    position: relative;
+    width: auto;
+    gap: 64px;
+}
+
+.ai-content-2 {
+    position: relative;
+    width: 640px;
+    height: 766px;
+}
+
+.ai-header {    
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    color: #FFF
+}
+
+.ai-header-title {
+    display: flex;
+    gap: 12px;
+}
+
+.ai-header-title h1 {
+    width: 100%;
+    font-weight: 700;
+    font-size: 72px;
+    letter-spacing: -4px;
+    line-height: 1.2em;
+    text-align: center;
+    margin: 0;
+}
+
+.ai-header-subtitle h2 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.4em;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.ai-prompt-container {
+    width: 792px;
+    height: 400px;
+}
+
+.prompt-box {
+    position: absolute;
+    width: 620px;
+    height: 252px;
+    border-radius: 16px;
+    background: linear-gradient(152.97deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%);
+    backdrop-filter: blur(21px);
+    resize: none;
+    padding-top: 20px;
+    padding-left: 20px;
+    left: 0;
+    top: 96px;
+}
+
+textarea::-webkit-scrollbar {
+    display: none;
+
+}
+
+/* textarea::-webkit-scrollbar-track {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    background-color: #535353;
+    border-radius: 10px;
+}
+
+textarea::-webkit-scrollbar-thumb {
+  background-color: #eb652b;
+  border-radius: 10px;
+} */
+
+textarea {
+    font-family: 'Satoshi';
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    resize: none;
+}
+
+
+.prompt-box:focus {
+    border-color:rgba(255, 255, 255, 0.75)
+}
+
+.go {
+    position: absolute;
+    width: 64px;
+    height: 60px;
+    right: 0;
+    top: 0;
+    background-color: #eb652b;
+    border-radius: 10px;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.go-btn {
+    color: black;
+}
+
+.ai-prompt-buttons {
+    display: flex;
+    place-content: center;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 0 0 auto;
+    flex-flow: row nowrap;
+    gap: 12px;
+    height: min-content;
+    overflow: hidden;
+    padding: 0px;
+    position: relative;
+    width: 100%;
+}
+
+.key-stroke {
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    transform: none;
+}
+
+.key-stroke p {
+    color: rgba(255, 255, 255, 0.75);
+    flex: 0 0 auto;
+    height: auto;
+    position: relative;
+    white-space: pre;
+    width: auto;
+}
+
+.or {
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    transform: none;
+}
+
+.or p {
+    color: rgba(255, 255, 255, 0.25)
+}
+
+.ai-generate-button {
+    position: absolute;
+    width: 70px; 
+    height: 70px;
+    background-color: #eb652b;
+    border-radius: 50%;
+    z-index: 100;
+}
+
+.ai-generate {
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    transform: none;
+    
+}
+
+.ai-generate p {
+    color: black;
+    justify-content: center;
+    margin-top: 35%;
+    margin-left: 35%;
+    inset: 25%;
+}
+
+.loading {
+    opacity: 0.7;
+    cursor: default;
+}
+
+.ai-badge-container {
+    display: flex;
+    bottom: 20px;
+    flex: 0 0 auto;
+    height: auto;
+    left: 20px;
+    position: fixed;
+    width: auto;
+    z-index: 1;
+}
+
+.badge-container a {
+    border-bottom-width: 1px;
+    border-color: rgba(255, 255, 255, 0.1);
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-style: solid;
+    border-top-width: 1px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 54.3478% / 238.095%;
+    filter: grayscale(1);
+    transform: none;
+    transform-origin: 50% 50% 0px;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    line-height: 1em;
+    color: #fff;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.badge {
+    display: flex;
+    align-items: center;
+}
+
+.badge img {
+    width: 21px;
+    height: 17px;
+    image-rendering: pixelated;
+    flex-shrink: 0;
+    fill: black;
+    color: black;
+    transform: none;
+    transform-origin: 50% 50% 0px;
+    padding-right: 5px;
+}
+
+.badge p {
+    margin: 0;
+}
+
+.grow {
+    transition: all .2s ease-in-out;
+}
+
+.grow:hover {
+    transform: scale(1.1);
+}
+
+.ai-output {
+    position: absolute;
+    width: 640px;
+    height: 272px;
+    background: linear-gradient(152.97deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%);
+    backdrop-filter: blur(21px);
+    border-radius: 16px;
+    left: 0;
+    top: 400px;
+    overflow: hidden; /* Add overflow property to hide content that exceeds the box size */
+  }
+  
+  .ai-output-header-container {
+    place-content: center;
+    align-items: center;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 16px;
+    height: min-content;
+    overflow: hidden;
+    padding: 0px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .ai-output-header h3 {
+    margin-top: 120px;
+    width: 56px;
+    height: 23px;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 23px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .ai-output-content {
+    width: 100%;
+    height: 100%;
+    overflow: auto; /* Add overflow property with 'auto' value to enable scrolling */
+    padding: 16px; /* Add padding to create space between content and box edges */
+  }
+  
+  .ai-output-content p {
+    text-align: left;
+    white-space: pre-line;
+    color: #fff;
+  }
+
+  .guide h4 {
+    font-size: 14px;
+    color: #eb652b;
+  }
+  
+@media (min-width: 810px) and (max-width: 1199px) {
+    .ai-container {
+        max-width: 600px;
+        width: 100%;
+    }
+
+    .ai-prompt-container {
+        max-width: 600px;
+        width: 100%;
+    }
+
+    .prompt-box {
+        width: 100%;
+    }
+}
+
+@media (max-width: 809px) {
+    .ai-container {
+        max-width: 500px;
+        width: 100%;
+    }
+
+    .ai-prompt-container {
+        max-width: 500px;
+        width: 100%;
+    }
+
+    .prompt-box {
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .ai-container {
+        max-width: 400px;
+        width: 100%;
+    }
+
+    .ai-header-title h1 {
+        font-size: 50px;
+    }
+
+    .ai-header-subtitle h2 {
+        text-align: center;
+    }
+
+    .key-stroke, .or {
+        display: none;
+    }
+
+    .ai-prompt-buttons {
+        justify-content: center;
+    }
+
+    .ai-prompt-container {
+        max-width: 400px;
+        width: 100%;
+    }
+
+    .prompt-box {
+        width: 100%;
+    }
+}
+
+ /* Loading ring animation */
+.loader {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    display: inline-block;
+    border-top: 2px solid #FFF;
+    border-right: 2px solid transparent;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+    margin-left: 35%;
+    margin-top: 35%;
+    inset: 25%;
+}
+
+.ai-refresh-button {
+    position: absolute;
+    width: 64px;
+    height: 60px;
+    left: 0px;
+    top: 0px;
+    border-radius: 10px;
+    background-color: #eb652b;
+}
+
+.refresh-btn {
+    margin-top: 3px;
+    margin-left: -2px;
+    width: 20px;
+    height: 20px;
+}
+
+.options-select {
+    position: absolute;
+    width: 448px;
+    height: 60px;
+    background: #3f3f3f;
+    border-radius: 10px;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 23px;
+    text-align: center;
+    color: #fff;
+    left: 96px;
+    top: 0px;
+}
+
+.ai-copy-button button {
+    position: absolute;
+    bottom: 0;
+    left: 160px;
+    width: 320px;
+    height: 60px;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 23px;
+    text-align: center;
+    color: black;
+    background: #eb652b;
+    border-radius: 10px;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

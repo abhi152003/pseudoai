@@ -1,0 +1,298 @@
+.build-wrapper{
+    max-width: 1120px;
+    height: 100vh;
+    margin:0 auto;
+    box-sizing: border-box;
+    padding-bottom: 50%;
+    background-color: #000000;
+    opacity: 1;
+    background-image: radial-gradient(#7c7c7c 1.2000000000000002px, #000000 1.2000000000000002px);
+    background-size: 50px 50px;
+}
+
+.build-container{
+    width: 100%;
+    height: 242px;
+}
+
+.build-header{
+    display: flex;
+    gap: 394px;
+    align-items: center;
+}
+
+.build-text-1{
+    width: 182px;
+    height: 42px;
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+
+.build-text-2{
+    width: 49px;
+    height: 22px;
+    font-family: 'EB Garamond';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.build-line{
+    width: 100%;
+    height: 0px;
+    border-bottom: 1px solid #525252;
+    margin-top: 6px;
+}
+
+.build-content-1{
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+
+.build-back-1{
+    position: absolute;
+    top: 96px;
+    width: 100%;
+    height: 304px;
+    background-color: #EB652B;
+    border-radius: 18px;
+}
+
+.tell-1{
+    position: absolute;
+    width: 390px;
+    height: 160px;
+    left: 41px;
+    top: 144px;
+    z-index: 10;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 34px;
+    line-height: 32px;
+    letter-spacing: -0.025em;
+    color: #000;
+}
+
+.skills-1{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    gap: 59px;
+    z-index: 10;
+    top: 342px;
+    left: 41px;
+}
+
+.skills-1 div{
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.025em;
+    color: #000000;
+}
+
+.build-img-1 {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 0;
+    left: 360px;
+    background-image: url("../assets/dev1.png"); 
+    z-index: 10;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.build-details-1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 13px;
+    position: absolute;
+    top: 184px;
+    left: 728px;
+    width: 392px;
+    height: 117px;
+    z-index: 10;
+}
+
+.bl1{
+    width: 100%;
+    height: 0px;
+    border-bottom: 1px solid #525252;
+}
+
+.build-name-1{
+    width: 139px;
+    height: 19px;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.build-email-1{
+    text-decoration: none;
+    width: 152px;
+    height: 16px;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.04em;
+    color: #000000;
+}
+
+.build-social-1{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.build-social-1 a{
+    text-decoration: none;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+    color: #000000;
+}
+
+
+.build-content-2{
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+
+.build-back-2{
+    position: absolute;
+    top: 96px;
+    width: 100%;
+    height: 304px;
+    background-color: #EB652B;
+    border-radius: 18px;
+}
+
+.tell-2{
+    position: absolute;
+    width: 390px;
+    height: 160px;
+    left: 41px;
+    top: 144px;
+    z-index: 10;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 34px;
+    line-height: 32px;
+    letter-spacing: -0.025em;
+    color: #000;
+}
+
+.skills-2{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    gap: 59px;
+    z-index: 10;
+    top: 342px;
+    left: 41px;
+}
+
+.skills-2 div{
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.025em;
+    color: #000000;
+}
+
+.build-img-2 {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 0;
+    left: 384px;
+    background-image: url("../assets/dev2.png"); 
+    z-index: 10;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.build-details-2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 13px;
+    position: absolute;
+    top: 184px;
+    left: 728px;
+    width: 392px;
+    height: 117px;
+    z-index: 10;
+}
+
+.bl2{
+    width: 100%;
+    height: 0px;
+    border-bottom: 1px solid #525252;
+}
+
+.build-name-2{
+    width: 139px;
+    height: 19px;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.build-email-2{
+    text-decoration: none;
+    width: 152px;
+    height: 16px;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.04em;
+    color: #000000;
+}
+
+.build-social-2{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.build-social-2 a{
+    text-decoration: none;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+    color: #000000;
+}
