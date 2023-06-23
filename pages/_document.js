@@ -10,6 +10,7 @@ export default function Document() {
         <link href="https://fonts.cdnfonts.com/css/satoshi" rel="stylesheet" />
         <meta name="twitter:card" content="summary_large_image"></meta>
         <link rel="shortcut icon" href="/icon.ico" />
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7915805381655628" crossorigin="anonymous"></script>
       </Head>
       <body>
         <Main />
