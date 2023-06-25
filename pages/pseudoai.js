@@ -63,10 +63,10 @@ function PseudoAIPage() {
             <div>
               Support Us On
             </div>
-            <a>Github</a>
-            <a>Behance</a>
-            <a>Dribble</a>
-            <a>Youtube</a>
+            <a href="https://github.com/abhi152003/pseudoai">Github</a>
+            <a href="https://www.behance.net/gallery/173682701/PSEUDOAI">Behance</a>
+            <a href="https://dribbble.com/shots/21831108-PSEUDO-AI-Revolutionizing-Code-Comprehension?utm_source=Clipboard_Shot&utm_campaign=jackpatel&utm_content=PSEUDO%20AI%20%3A%20Revolutionizing%20Code%20Comprehension&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=jackpatel&utm_content=PSEUDO%20AI%20%3A%20Revolutionizing%20Code%20Comprehension&utm_medium=Social_Share">Dribble</a>
+            <a href="https://www.youtube.com/watch?v=Gr6Mj-ACHYI">Youtube</a>
           </div>
           <div className='ai-copyrights'>Copyright@2023. All rights reserved by PseudoAI</div>
         </div>
