@@ -85,7 +85,7 @@ export default function Footer() {
                     >
                         Follow on
                     </motion.div>
-                    <motion.a href='#about'
+                    <motion.a href='https://github.com/abhi152003/pseudoai'
                         initial={{y:10,opacity:0}}
                         whileInView={{y:0,opacity:1}}
                         viewport={{once:true}}
@@ -93,7 +93,7 @@ export default function Footer() {
                     >
                         Github
                     </motion.a>
-                    <motion.a href='#developers'
+                    <motion.a href='https://www.behance.net/gallery/173682701/PSEUDOAI'
                         initial={{y:10,opacity:0}}
                         whileInView={{y:0,opacity:1}}
                         viewport={{once:true}}
@@ -101,7 +101,7 @@ export default function Footer() {
                     >
                         Behance
                     </motion.a>
-                    <motion.a href='#updates'
+                    <motion.a href='https://dribbble.com/shots/21831108-PSEUDO-AI-Revolutionizing-Code-Comprehension?utm_source=Clipboard_Shot&utm_campaign=jackpatel&utm_content=PSEUDO%20AI%20%3A%20Revolutionizing%20Code%20Comprehension&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=jackpatel&utm_content=PSEUDO%20AI%20%3A%20Revolutionizing%20Code%20Comprehension&utm_medium=Social_Share'
                         initial={{y:10,opacity:0}}
                         whileInView={{y:0,opacity:1}}
                         viewport={{once:true}}
@@ -109,7 +109,7 @@ export default function Footer() {
                     >
                         Dribbble
                     </motion.a>
-                    <motion.a href='#faq'
+                    <motion.a href='https://www.youtube.com/watch?v=Gr6Mj-ACHYI'
                         initial={{y:10,opacity:0}}
                         whileInView={{y:0,opacity:1}}
                         viewport={{once:true}}
