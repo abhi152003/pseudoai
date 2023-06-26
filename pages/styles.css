@@ -41,13 +41,20 @@ body {
       text-align: center;
       background-color: #000000;
       padding: 10px;
-      font-size: 20px;
+      font-size: 16px;
       margin-top: 30%;
       color: #eb652b;
+      background-image: url("../assets/AIhumam.jpg");
+      background-repeat: no-repeat;
+      background-position-x: center;
+      background-position-y: 60px;
+      background-size: 300px 400px;
+      background-attachment:scroll;
+      box-sizing: border-box;
     }
 
     .mob-msg {
-        font-size: 30px;
+        font-size: 14px;
     }
 
     .mobile_social {
@@ -55,8 +62,18 @@ body {
         margin-top: 30%;
     }
 
-    .mobile_social h3 {
+    .mobile_social a {
+        display: flex;
+        place-content: center;
+        text-decoration: none;
         color: #eb652b;
+        margin-top: 10px;
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    .mobile_social h2 {
+        font-size: 14px;
     }
 
     .home-wrapper {
@@ -98,6 +115,7 @@ body {
     .mobile_copy {
         color: white;
         margin-top: 20%;
+        font-size: 10px;
     }
 
   }
