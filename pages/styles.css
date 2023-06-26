@@ -51,6 +51,7 @@ body {
       background-size: 300px 400px;
       background-attachment:scroll;
       box-sizing: border-box;
+      font-family: 'Satoshi'
     }
 
     .mob-msg {
