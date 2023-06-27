@@ -21,7 +21,7 @@ body {
     display: flex;
     flex-direction: row;
     gap: 128px;
-    background-image: url(../assets/AIhumam.jpg);
+    background-image: url("https://pseudoai.vercel.app/_next/static/media/AIhumam.aac37992.jpg");
     background-repeat: no-repeat;
     background-position-x: center;
     background-size: 610px 790px;
