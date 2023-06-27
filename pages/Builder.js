@@ -156,7 +156,7 @@ export default function Builder() {
                         viewport={{ once: true }}
                         transition={{duration:2, delay:0.3}}
                         className='tell-2'>
-                        "I am developer who turning server-side magic into seamless user experiences."
+                        "I am developer turning server-side magic into seamless user experiences."
                     </motion.div>
                     <div className='skills-2'>
                         <motion.div 
