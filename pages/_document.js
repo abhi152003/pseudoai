@@ -11,15 +11,15 @@ export default function Document() {
         <meta name="twitter:card" content="summary_large_image"></meta>
         <link rel="shortcut icon" href="/icon.ico" />
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7915805381655628" crossorigin="anonymous"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-K0TY06F5S8"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+        
+          gtag('config', 'G-K0TY06F5S8');
+        </script>
       </Head>
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-K0TY06F5S8"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-      
-        gtag('config', 'G-K0TY06F5S8');
-      </script>
       <body>
         <Main />
         <NextScript />
