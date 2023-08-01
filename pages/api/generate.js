@@ -19,9 +19,6 @@ const generateAction = async (req, res) => {
 
   const language = req.body.selectedLanguage;
   // Run first prompt
-  console.log(language);
-  console.log(`API: ${basePromptPrefix}${req.body.userInput}`);
-
   const baseCompletion = await openai.createCompletion({
     model: 'text-davinci-003',
     prompt: `Programming Language: ${language}${basePromptPrefix}${req.body.userInput}\n`,
