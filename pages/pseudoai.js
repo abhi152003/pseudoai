@@ -13,7 +13,6 @@ function PseudoAIPage() {
   const callGenerateEndpoint = async () => {
     setIsGenerating(true);
 
-    console.log("Calling OpenAI...");
     const response = await fetch('/api/generate', {
       method: 'POST',
       headers: {
@@ -24,7 +23,6 @@ function PseudoAIPage() {
 
     const data = await response.json();
     const { output } = data;
-    console.log("OpenAI replied...", output.text);
 
     setApiOutput(`${output.text}`);
     setIsGenerating(false);
